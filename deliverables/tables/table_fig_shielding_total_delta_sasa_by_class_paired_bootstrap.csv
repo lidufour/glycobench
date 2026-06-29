@@ -1,0 +1,10 @@
+glycan_class,metric,comparison,n_paired_sites,median_difference,ci95_low,ci95_high
+complex,total_delta_sasa_a2,glycoshape_minus_glycoshield,8,125.79122549999998,40.91201700000002,234.15986049999998
+complex,total_delta_sasa_a2,glycoshield_minus_reference,8,-321.70441325,-419.463987,-231.4981935
+complex,total_delta_sasa_a2,glycoshape_minus_reference,8,-197.59489175000002,-262.3895355000001,-181.613271
+high_mannose,total_delta_sasa_a2,glycoshape_minus_glycoshield,7,8.706470500000023,-11.822893500000006,136.24491300000003
+high_mannose,total_delta_sasa_a2,glycoshield_minus_reference,7,-103.16125749999998,-235.691598,-75.80796900000001
+high_mannose,total_delta_sasa_a2,glycoshape_minus_reference,7,-80.23852499999998,-99.99040100000002,-53.11896300000001
+paucimannose,total_delta_sasa_a2,glycoshape_minus_glycoshield,6,-33.47138899999999,-39.901176,52.14704449999999
+paucimannose,total_delta_sasa_a2,glycoshield_minus_reference,6,-26.01017225000001,-79.13210224999997,11.461562500000007
+paucimannose,total_delta_sasa_a2,glycoshape_minus_reference,6,-27.383486499999997,-83.88477249999997,-3.637973500000001

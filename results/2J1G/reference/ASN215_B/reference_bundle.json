@@ -1,0 +1,52 @@
+{
+  "pdb_id": "2J1G",
+  "site": {
+    "resname": "ASN",
+    "chain": "B",
+    "resnum": 215,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "G",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 5,
+  "n_glycan_atoms": 60,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "G",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "G",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "G",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "G",
+      "resnum": 5,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/2j1g.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/2j1g_protein_only.pdb",
+  "output_glycan_pdb": "results/2J1G/reference/ASN215_B/glycan.pdb"
+}

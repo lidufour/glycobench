@@ -1,0 +1,2354 @@
+{
+  "pdb_id": "6X3X",
+  "site": "ASN111_B",
+  "status": "ok",
+  "reference_bundle_path": "results/6X3X/reference/ASN111_B/reference_bundle.json",
+  "reference_pdb_path": "results/6X3X/aligned/ASN111_B/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_name": "glycoshield",
+      "status": "ok",
+      "method": "rooted_topology_heavy_atom_bonds",
+      "bond_cutoff_angstrom": 1.85,
+      "reference_bundle_path": "results/6X3X/reference/ASN111_B/reference_bundle.json",
+      "reference_pdb_path": "results/6X3X/aligned/ASN111_B/protein_frame/reference_glycan.pdb",
+      "source_bundle_path": "results/6X3X/glycoshield/ASN111_B/glycoshield_bundle.json",
+      "source_pdb_path": "results/6X3X/aligned/ASN111_B/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "reference_root": {
+        "resname": "NAG",
+        "chain": "G",
+        "resnum": 1,
+        "icode": ""
+      },
+      "reference_root_strategy": "bundle.glycan_root",
+      "source_root": {
+        "resname": "BGL",
+        "chain": "X",
+        "resnum": 341,
+        "icode": ""
+      },
+      "source_root_strategy": "first_bundle_glycan_residue",
+      "n_reference_residues": 10,
+      "n_source_residues": 10,
+      "n_mapped_residues": 10,
+      "reference_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            105.108,
+            99.336,
+            109.765
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            100.622,
+            102.0,
+            111.199
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            95.168,
+            103.441,
+            109.978
+          ]
+        },
+        {
+          "index": 4,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            91.98,
+            99.756,
+            107.374
+          ]
+        },
+        {
+          "index": 5,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            88.598,
+            103.76,
+            107.204
+          ]
+        },
+        {
+          "index": 6,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            85.244,
+            101.212,
+            109.907
+          ]
+        },
+        {
+          "index": 7,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            98.67,
+            106.553,
+            113.102
+          ]
+        },
+        {
+          "index": 8,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            93.13,
+            105.654,
+            114.352
+          ]
+        },
+        {
+          "index": 9,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            93.282,
+            105.182,
+            118.826
+          ]
+        },
+        {
+          "index": 10,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            103.253,
+            107.876,
+            110.33
+          ]
+        }
+      ],
+      "source_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 341,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            96.388,
+            101.874,
+            103.386
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            96.146,
+            98.34,
+            107.266
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 20,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            97.62,
+            94.392,
+            109.873
+          ]
+        },
+        {
+          "index": 4,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 20,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            91.409,
+            93.637,
+            109.807
+          ]
+        },
+        {
+          "index": 5,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            87.434,
+            96.034,
+            112.921
+          ]
+        },
+        {
+          "index": 6,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 346,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            90.182,
+            96.024,
+            117.142
+          ]
+        },
+        {
+          "index": 7,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 347,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            90.622,
+            90.794,
+            105.455
+          ]
+        },
+        {
+          "index": 8,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            102.212,
+            95.728,
+            112.009
+          ]
+        },
+        {
+          "index": 9,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            99.099,
+            98.991,
+            114.539
+          ]
+        },
+        {
+          "index": 10,
+          "key": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 350,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            101.131,
+            103.014,
+            114.671
+          ]
+        }
+      ],
+      "reference_edges": [
+        {
+          "residue_a": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.375
+        },
+        {
+          "residue_a": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.374
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.372
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.374
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.375
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.374
+        }
+      ],
+      "source_edges": [
+        {
+          "residue_a": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 341,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.426
+        },
+        {
+          "residue_a": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.442
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.408
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.432
+        },
+        {
+          "residue_a": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.378
+        },
+        {
+          "residue_a": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 347,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.391
+        },
+        {
+          "residue_a": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 346,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.427
+        },
+        {
+          "residue_a": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.361
+        },
+        {
+          "residue_a": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 350,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.451
+        }
+      ],
+      "reference_topology": [
+        {
+          "parent": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.375,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 2
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.372,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 5
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.375,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 5
+        }
+      ],
+      "source_topology": [
+        {
+          "parent": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 341,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.426,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.442,
+          "depth": 2
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.432,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.361,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 350,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.451,
+          "depth": 5
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.408,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 347,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.391,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.378,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "child": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 346,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.427,
+          "depth": 5
+        }
+      ],
+      "mapping": [
+        {
+          "reference": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "source": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 341,
+            "icode": ""
+          },
+          "reference_class": "GlcNAc",
+          "source_class": "GlcNAc"
+        },
+        {
+          "reference": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "source": {
+            "resname": "BGL",
+            "chain": "X",
+            "resnum": 342,
+            "icode": ""
+          },
+          "reference_class": "GlcNAc",
+          "source_class": "GlcNAc"
+        },
+        {
+          "reference": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "source": {
+            "resname": "BMA",
+            "chain": "X",
+            "resnum": 343,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 348,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 349,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 350,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 344,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 345,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 346,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AMA",
+            "chain": "X",
+            "resnum": 347,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        }
+      ],
+      "warnings": []
+    },
+    "glycoshape": {
+      "source_name": "glycoshape",
+      "status": "ok",
+      "method": "rooted_topology_heavy_atom_bonds",
+      "bond_cutoff_angstrom": 1.85,
+      "reference_bundle_path": "results/6X3X/reference/ASN111_B/reference_bundle.json",
+      "reference_pdb_path": "results/6X3X/aligned/ASN111_B/protein_frame/reference_glycan.pdb",
+      "source_bundle_path": "results/6X3X/glycoshape/ASN111_B/glycoshape_bundle.json",
+      "source_pdb_path": "results/6X3X/aligned/ASN111_B/protein_frame/glycoshape_glycan_ensemble.pdb",
+      "reference_root": {
+        "resname": "NAG",
+        "chain": "G",
+        "resnum": 1,
+        "icode": ""
+      },
+      "reference_root_strategy": "bundle.glycan_root",
+      "source_root": {
+        "resname": "NDG",
+        "chain": "M",
+        "resnum": 2,
+        "icode": ""
+      },
+      "source_root_strategy": "first_bundle_glycan_residue",
+      "n_reference_residues": 10,
+      "n_source_residues": 10,
+      "n_mapped_residues": 10,
+      "reference_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            105.108,
+            99.336,
+            109.765
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            100.622,
+            102.0,
+            111.199
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            95.168,
+            103.441,
+            109.978
+          ]
+        },
+        {
+          "index": 4,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            91.98,
+            99.756,
+            107.374
+          ]
+        },
+        {
+          "index": 5,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            88.598,
+            103.76,
+            107.204
+          ]
+        },
+        {
+          "index": 6,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            85.244,
+            101.212,
+            109.907
+          ]
+        },
+        {
+          "index": 7,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            98.67,
+            106.553,
+            113.102
+          ]
+        },
+        {
+          "index": 8,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            93.13,
+            105.654,
+            114.352
+          ]
+        },
+        {
+          "index": 9,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            93.282,
+            105.182,
+            118.826
+          ]
+        },
+        {
+          "index": 10,
+          "key": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            103.253,
+            107.876,
+            110.33
+          ]
+        }
+      ],
+      "source_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "NDG",
+            "chain": "M",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            106.814,
+            99.897,
+            111.21
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "normalized_name": "GlcNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            107.728,
+            105.406,
+            112.158
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 20,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            108.959,
+            109.788,
+            115.953
+          ]
+        },
+        {
+          "index": 4,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            111.253,
+            109.186,
+            121.048
+          ]
+        },
+        {
+          "index": 5,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            108.221,
+            113.136,
+            122.329
+          ]
+        },
+        {
+          "index": 6,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 7,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            111.095,
+            117.085,
+            122.205
+          ]
+        },
+        {
+          "index": 7,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 20,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            104.783,
+            113.486,
+            114.235
+          ]
+        },
+        {
+          "index": 8,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 9,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            106.662,
+            118.068,
+            116.552
+          ]
+        },
+        {
+          "index": 9,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            102.425,
+            107.758,
+            113.53
+          ]
+        },
+        {
+          "index": 10,
+          "key": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 11,
+            "icode": ""
+          },
+          "normalized_name": "Man",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            104.785,
+            107.581,
+            118.205
+          ]
+        }
+      ],
+      "reference_edges": [
+        {
+          "residue_a": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.375
+        },
+        {
+          "residue_a": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.374
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.372
+        },
+        {
+          "residue_a": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.374
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.373
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.375
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.374
+        }
+      ],
+      "source_edges": [
+        {
+          "residue_a": {
+            "resname": "NDG",
+            "chain": "M",
+            "resnum": 2,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.452
+        },
+        {
+          "residue_a": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "atom_a": "O4",
+          "atom_b": "C1",
+          "distance": 1.5
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.477
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.498
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.407
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 7,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.517
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 9,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.49
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C1",
+          "distance": 1.443
+        },
+        {
+          "residue_a": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 11,
+            "icode": ""
+          },
+          "atom_a": "O2",
+          "atom_b": "C1",
+          "distance": 1.495
+        }
+      ],
+      "reference_topology": [
+        {
+          "parent": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.375,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 2
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.372,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 5
+        },
+        {
+          "parent": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.375,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.373,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.374,
+          "depth": 5
+        }
+      ],
+      "source_topology": [
+        {
+          "parent": {
+            "resname": "NDG",
+            "chain": "M",
+            "resnum": 2,
+            "icode": ""
+          },
+          "child": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.452,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "parent_atom": "O4",
+          "child_atom": "C1",
+          "distance": 1.5,
+          "depth": 2
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.477,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.407,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 7,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.517,
+          "depth": 5
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.498,
+          "depth": 3
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 9,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.49,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C1",
+          "distance": 1.443,
+          "depth": 4
+        },
+        {
+          "parent": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "child": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 11,
+            "icode": ""
+          },
+          "parent_atom": "O2",
+          "child_atom": "C1",
+          "distance": 1.495,
+          "depth": 5
+        }
+      ],
+      "mapping": [
+        {
+          "reference": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 1,
+            "icode": ""
+          },
+          "source": {
+            "resname": "NDG",
+            "chain": "M",
+            "resnum": 2,
+            "icode": ""
+          },
+          "reference_class": "GlcNAc",
+          "source_class": "GlcNAc"
+        },
+        {
+          "reference": {
+            "resname": "NAG",
+            "chain": "G",
+            "resnum": 2,
+            "icode": ""
+          },
+          "source": {
+            "resname": "NAG",
+            "chain": "M",
+            "resnum": 3,
+            "icode": ""
+          },
+          "reference_class": "GlcNAc",
+          "source_class": "GlcNAc"
+        },
+        {
+          "reference": {
+            "resname": "BMA",
+            "chain": "G",
+            "resnum": 3,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 4,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 4,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 5,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 5,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 6,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 6,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 7,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 7,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 8,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 8,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 10,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 9,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 11,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        },
+        {
+          "reference": {
+            "resname": "MAN",
+            "chain": "G",
+            "resnum": 10,
+            "icode": ""
+          },
+          "source": {
+            "resname": "MAN",
+            "chain": "M",
+            "resnum": 9,
+            "icode": ""
+          },
+          "reference_class": "Man",
+          "source_class": "Man"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "warnings": []
+}

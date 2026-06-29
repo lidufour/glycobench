@@ -1,0 +1,52 @@
+{
+  "pdb_id": "3DGC",
+  "site": {
+    "resname": "ASN",
+    "chain": "R",
+    "resnum": 172,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "A",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 5,
+  "n_glycan_atoms": 60,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "A",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "A",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "A",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "A",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "A",
+      "resnum": 5,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/3dgc.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/3dgc_protein_only.pdb",
+  "output_glycan_pdb": "results/3DGC/reference/ASN172_R/glycan.pdb"
+}

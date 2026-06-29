@@ -1,0 +1,52 @@
+{
+  "pdb_id": "1OYH",
+  "site": {
+    "resname": "ASN",
+    "chain": "L",
+    "resnum": 192,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "C",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 5,
+  "n_glycan_atoms": 61,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "C",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 5,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/1oyh.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/1oyh_protein_only.pdb",
+  "output_glycan_pdb": "results/1OYH/reference/ASN192_L/glycan.pdb"
+}

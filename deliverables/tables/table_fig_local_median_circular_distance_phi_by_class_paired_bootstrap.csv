@@ -1,0 +1,4 @@
+glycan_class,metric,comparison,n_paired_sites,median_difference,ci95_low,ci95_high
+complex,median_circular_distance_phi,glycoshape_minus_glycoshield,8,-0.018749999999993605,-1.8750000000000142,8.365000000000002
+high_mannose,median_circular_distance_phi,glycoshape_minus_glycoshield,7,-2.1274999999999906,-4.652499999999982,4.650000000000034
+paucimannose,median_circular_distance_phi,glycoshape_minus_glycoshield,4,1.5762500000000021,-14.894999999999996,8.0175

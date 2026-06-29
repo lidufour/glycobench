@@ -1,0 +1,69 @@
+{
+  "pdb_id": "1OYH",
+  "site": {
+    "resname": "ASN",
+    "chain": "L",
+    "resnum": 192,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/1OYH_G00026MO_GlycoShape_Job_bd763090/all.pdb",
+  "job_dir": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/1OYH_G00026MO_GlycoShape_Job_bd763090",
+  "n_models": 30,
+  "n_glycan_residues": 5,
+  "n_glycan_atoms_per_model": 118,
+  "anchor_residue_nearest_site": {
+    "resname": "NAG",
+    "chain": "M",
+    "resnum": 2,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.405,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "M",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "M",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 6,
+      "icode": ""
+    }
+  ],
+  "glycan_chains": [
+    "M"
+  ],
+  "ensemble_stats_csv": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/1OYH_G00026MO_GlycoShape_Job_bd763090/ensemble_stats.csv",
+  "job_meta_json": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/1OYH_G00026MO_GlycoShape_Job_bd763090/job_meta.json",
+  "ensemble_stats_rows": [
+    {
+      "Chain": "M",
+      "Glycan": "G00026MO",
+      "Mean Phi": "255.29869109029303",
+      "Std Phi": "61.989564638354295",
+      "Mean Psi": "201.0125049386632",
+      "Std Psi": "26.249293876056832"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/1OYH/glycoshape/ASN192_L/glycan_ensemble.pdb"
+}

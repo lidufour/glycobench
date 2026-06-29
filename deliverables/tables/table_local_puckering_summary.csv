@@ -1,0 +1,7 @@
+glycan_class,tool,n_sites,median_pucker_agreement_fraction,mean_pucker_agreement_fraction,mean_pucker_disagreement_fraction,median_n_distinct_tool_pucker_classes
+complex,glycoshape,8,1.0,1.0,0.0,1.0
+complex,glycoshield,8,1.0,1.0,0.0,1.0
+high_mannose,glycoshape,7,1.0,1.0,0.0,1.0
+high_mannose,glycoshield,7,1.0,0.9971428571428572,0.0028571428571428567,1.0
+paucimannose,glycoshape,6,1.0,0.8333333333333334,0.16666666666666666,1.0
+paucimannose,glycoshield,6,0.8472222222222223,0.8479629629629629,0.15203703703703705,1.1

@@ -1,0 +1,35 @@
+{
+  "pdb_id": "6Z2P",
+  "site": {
+    "resname": "THR",
+    "chain": "C",
+    "resnum": 8,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/6Z2P_O-Core1_THR8-C_webapp_output_6/merged_traj_pdb.pdb",
+  "n_models": 30,
+  "n_glycan_residues": 2,
+  "n_glycan_atoms_per_model": 49,
+  "anchor_residue_nearest_site": {
+    "resname": "AGA",
+    "chain": "X",
+    "resnum": 11,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.916,
+  "glycan_residues": [
+    {
+      "resname": "AGA",
+      "chain": "X",
+      "resnum": 11,
+      "icode": ""
+    },
+    {
+      "resname": "BGA",
+      "chain": "X",
+      "resnum": 12,
+      "icode": ""
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/6Z2P/glycoshield/THR8_C/glycan_ensemble.pdb"
+}

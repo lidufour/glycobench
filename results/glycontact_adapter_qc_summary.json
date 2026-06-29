@@ -1,0 +1,29 @@
+{
+  "n_rows": 67,
+  "by_tool": {
+    "reference": 23,
+    "glycoshield": 23,
+    "glycoshape": 21
+  },
+  "by_adapter_status": {
+    "ok": 67
+  },
+  "by_recommended_use": {
+    "reference_for_selected_site": 23,
+    "exploratory_common_scaffold": 7,
+    "strict": 37
+  },
+  "by_coordinate_status": {
+    "ok": 67
+  },
+  "by_ring_status": {
+    "ok": 67
+  },
+  "by_sequence_status": {
+    "ok": 67
+  },
+  "by_superimpose_status": {
+    "not_run": 23,
+    "ok": 44
+  }
+}

@@ -1,0 +1,4 @@
+glycan_class,metric,comparison,n_paired_sites,median_difference,ci95_low,ci95_high
+complex,min_rmsd_to_reference,glycoshape_minus_glycoshield,8,0.678716,0.38761200000000007,0.88187
+high_mannose,min_rmsd_to_reference,glycoshape_minus_glycoshield,7,0.0660750000000001,-0.059012000000000064,0.1165299999999998
+paucimannose,min_rmsd_to_reference,glycoshape_minus_glycoshield,6,-0.06633050000000007,-0.4235665000000002,0.437171

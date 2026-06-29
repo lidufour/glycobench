@@ -1,0 +1,81 @@
+{
+  "pdb_id": "2QWB",
+  "site": {
+    "resname": "ASN",
+    "chain": "A",
+    "resnum": 200,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/2QWB_G53401FX_GlycoShape_Job_5628a3ae/all.pdb",
+  "job_dir": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/2QWB_G53401FX_GlycoShape_Job_5628a3ae",
+  "n_models": 30,
+  "n_glycan_residues": 7,
+  "n_glycan_atoms_per_model": 160,
+  "anchor_residue_nearest_site": {
+    "resname": "NAG",
+    "chain": "B",
+    "resnum": 2,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.446,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "B",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "B",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 8,
+      "icode": ""
+    }
+  ],
+  "glycan_chains": [
+    "B"
+  ],
+  "ensemble_stats_csv": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/2QWB_G53401FX_GlycoShape_Job_5628a3ae/ensemble_stats.csv",
+  "job_meta_json": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/2QWB_G53401FX_GlycoShape_Job_5628a3ae/job_meta.json",
+  "ensemble_stats_rows": [
+    {
+      "Chain": "B",
+      "Glycan": "G53401FX",
+      "Mean Phi": "273.9972487393871",
+      "Std Phi": "8.422999605745234",
+      "Mean Psi": "187.5171396258596",
+      "Std Psi": "36.02096773221352"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/2QWB/glycoshape/ASN200_A/glycan_ensemble.pdb"
+}

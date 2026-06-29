@@ -1,0 +1,70 @@
+{
+  "pdb_id": "6F9T",
+  "site": {
+    "resname": "ASN",
+    "chain": "A",
+    "resnum": 109,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "C",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 8,
+  "n_glycan_atoms": 186,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "C",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "C",
+      "resnum": 8,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/6f9t.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/6f9t_protein_only.pdb",
+  "output_glycan_pdb": "results/6F9T/reference/ASN109_A/glycan.pdb"
+}

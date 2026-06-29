@@ -1,0 +1,81 @@
+{
+  "pdb_id": "5XWD",
+  "site": {
+    "resname": "ASN",
+    "chain": "A",
+    "resnum": 328,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/5XWD_G84678BK_GlycoShape_Job_76ccdd8e/all.pdb",
+  "job_dir": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/5XWD_G84678BK_GlycoShape_Job_76ccdd8e",
+  "n_models": 30,
+  "n_glycan_residues": 7,
+  "n_glycan_atoms_per_model": 172,
+  "anchor_residue_nearest_site": {
+    "resname": "NDG",
+    "chain": "I",
+    "resnum": 2,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.395,
+  "glycan_residues": [
+    {
+      "resname": "NDG",
+      "chain": "I",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "I",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "I",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "I",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "I",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "I",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "I",
+      "resnum": 8,
+      "icode": ""
+    }
+  ],
+  "glycan_chains": [
+    "I"
+  ],
+  "ensemble_stats_csv": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/5XWD_G84678BK_GlycoShape_Job_76ccdd8e/ensemble_stats.csv",
+  "job_meta_json": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/5XWD_G84678BK_GlycoShape_Job_76ccdd8e/job_meta.json",
+  "ensemble_stats_rows": [
+    {
+      "Chain": "I",
+      "Glycan": "G84678BK",
+      "Mean Phi": "300.4507987347522",
+      "Std Phi": "4.259226294319498",
+      "Mean Psi": "221.46050373181748",
+      "Std Psi": "3.4861648720430294"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/5XWD/glycoshape/ASN328_A/glycan_ensemble.pdb"
+}

@@ -1,0 +1,57 @@
+{
+  "input": "results/glycan_shielding_residue_sasa.csv",
+  "rows_total": 2530953,
+  "status_counts": {
+    "ok": 2530953
+  },
+  "rows_by_tool": {
+    "reference": 42693,
+    "glycoshield": 1280790,
+    "glycoshape": 1207470
+  },
+  "delta_sasa_by_tool": {
+    "glycoshape": {
+      "n": 1207470,
+      "min": 0.0,
+      "mean": 0.1340355571094934,
+      "max": 122.720524
+    },
+    "glycoshield": {
+      "n": 1280790,
+      "min": 0.0,
+      "mean": 0.11623960367429478,
+      "max": 135.387438
+    },
+    "reference": {
+      "n": 42693,
+      "min": 0.0,
+      "mean": 0.21167831354086145,
+      "max": 99.467448
+    }
+  },
+  "negative_delta_count": 0,
+  "negative_delta_examples": [],
+  "masked_residues_per_model": {
+    "glycoshape": {
+      "n_models_with_masking": 630,
+      "min": 1,
+      "mean": 11.374603174603175,
+      "median": 11,
+      "max": 29
+    },
+    "glycoshield": {
+      "n_models_with_masking": 690,
+      "min": 2,
+      "mean": 9.669565217391304,
+      "median": 9,
+      "max": 38
+    },
+    "reference": {
+      "n_models_with_masking": 23,
+      "min": 3,
+      "mean": 15.608695652173912,
+      "median": 16,
+      "max": 30
+    }
+  }
+}

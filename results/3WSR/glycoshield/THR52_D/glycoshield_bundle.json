@@ -1,0 +1,41 @@
+{
+  "pdb_id": "3WSR",
+  "site": {
+    "resname": "THR",
+    "chain": "D",
+    "resnum": 52,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/3WSR_O-3Sialyl_Core1_THR52-C_THR52-D_webapp_output_7/merged_traj_pdb.pdb",
+  "n_models": 30,
+  "n_glycan_residues": 3,
+  "n_glycan_atoms_per_model": 85,
+  "anchor_residue_nearest_site": {
+    "resname": "AGA",
+    "chain": "X",
+    "resnum": 56,
+    "icode": "occ1"
+  },
+  "anchor_distance_angstrom": 1.443,
+  "glycan_residues": [
+    {
+      "resname": "AGA",
+      "chain": "X",
+      "resnum": 56,
+      "icode": "occ1"
+    },
+    {
+      "resname": "BGA",
+      "chain": "X",
+      "resnum": 57,
+      "icode": "occ1"
+    },
+    {
+      "resname": "ANE",
+      "chain": "X",
+      "resnum": 58,
+      "icode": "occ1"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/3WSR/glycoshield/THR52_D/glycan_ensemble.pdb"
+}

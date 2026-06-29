@@ -1,0 +1,10 @@
+glycan_class,tool,n_sites,median_total_delta_sasa_a2,median_masked_residue_fraction,median_n_masked_residues
+complex,glycoshape,8,289.91071575,0.0271479713603818,11.0
+complex,glycoshield,8,142.03364,0.01377478428492745,5.75
+complex,reference,8,482.1517605,0.03699284009546535,16.5
+high_mannose,glycoshape,7,316.305996,0.0021786492374727,14.0
+high_mannose,glycoshield,7,293.4365415,0.00197440087145965,11.5
+high_mannose,reference,7,412.642523,0.0024509803921568,17.0
+paucimannose,glycoshape,6,139.36796,0.0079720997543162,6.0
+paucimannose,glycoshield,6,159.63904975000003,0.01116346380372225,8.25
+paucimannose,reference,6,193.39131199999997,0.013981278336797551,9.5

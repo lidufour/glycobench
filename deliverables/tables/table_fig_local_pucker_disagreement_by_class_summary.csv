@@ -1,0 +1,7 @@
+glycan_class,tool,metric,n_sites,median,ci95_low,ci95_high
+complex,glycoshape,pucker_disagreement_fraction,8,0.0,0.0,0.0
+complex,glycoshield,pucker_disagreement_fraction,8,0.0,0.0,0.0
+high_mannose,glycoshape,pucker_disagreement_fraction,7,0.0,0.0,0.0
+high_mannose,glycoshield,pucker_disagreement_fraction,7,0.0,0.0,0.0
+paucimannose,glycoshape,pucker_disagreement_fraction,6,0.0,0.0,0.5
+paucimannose,glycoshield,pucker_disagreement_fraction,6,0.1527777777777778,0.0,0.30333333333333334

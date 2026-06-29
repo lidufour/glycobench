@@ -1,0 +1,40 @@
+{
+  "pdb_id": "3WSR",
+  "site": {
+    "resname": "THR",
+    "chain": "D",
+    "resnum": 52,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "A2G",
+    "chain": "F",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 3,
+  "n_glycan_atoms": 45,
+  "glycan_residues": [
+    {
+      "resname": "A2G",
+      "chain": "F",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "GAL",
+      "chain": "F",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "SIA",
+      "chain": "F",
+      "resnum": 3,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/3wsr.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/3wsr_protein_only.pdb",
+  "output_glycan_pdb": "results/3WSR/reference/THR52_D/glycan.pdb"
+}

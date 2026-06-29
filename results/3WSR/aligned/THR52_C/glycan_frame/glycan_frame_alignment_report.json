@@ -1,0 +1,1303 @@
+{
+  "pdb_id": "3WSR",
+  "site": "THR52_C",
+  "status": "partial",
+  "method": "monosaccharide_centroid_kabsch",
+  "mapping_report_path": "results/3WSR/aligned/THR52_C/glycan_mapping/glycan_residue_mapping_report.json",
+  "reference_input_pdb": "results/3WSR/aligned/THR52_C/protein_frame/reference_glycan.pdb",
+  "reference_output_pdb": "results/3WSR/aligned/THR52_C/glycan_frame/reference_glycan.pdb",
+  "min_centroids_required": 2,
+  "tools": {
+    "glycoshield": {
+      "tool": "glycoshield",
+      "status": "partial",
+      "method": "monosaccharide_centroid_kabsch",
+      "mapping_status": "partial",
+      "reference_pdb_path": "results/3WSR/aligned/THR52_C/protein_frame/reference_glycan.pdb",
+      "source_pdb_path": "results/3WSR/aligned/THR52_C/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "output_pdb_path": "results/3WSR/aligned/THR52_C/glycan_frame/glycoshield_glycan_ensemble.pdb",
+      "n_reference_residues": 3,
+      "n_source_residues": 3,
+      "n_mapped_residues": 2,
+      "min_centroids_required": 2,
+      "mapping_warnings": [
+        "mapping: subtree mismatch but edge/name match for GAL2_E below A2G1_E; selected BGA57_X",
+        "mapping: extra source child not mapped below BGA57_X: ANE58_X",
+        "mapping: no source child found for SIA3_E below A2G1_E with edge O6 and class Sia"
+      ],
+      "warnings": [
+        "alignment used only two mapped centroids; translation and main axis are defined, but rotation around that axis is underdetermined",
+        "alignment used a partial residue mapping; interpreted as common scaffold only"
+      ],
+      "models": [
+        {
+          "model": 1,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.082717,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 2,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.00141,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 3,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.078612,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 4,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.105805,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 5,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.035767,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 6,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.049639,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 7,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.074458,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 8,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.112513,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 9,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.157669,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 10,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.084485,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 11,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.031059,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 12,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.071487,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 13,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.077575,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 14,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.157197,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 15,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.087517,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 16,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.049074,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 17,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.069258,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 18,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.081026,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 19,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.100045,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 20,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.004217,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 21,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.072675,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 22,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.111024,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 23,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.115891,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 24,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.081094,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 25,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.156274,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 26,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.079434,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 27,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.111278,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 28,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.003419,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 29,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.094486,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        },
+        {
+          "model": 30,
+          "n_centroids_used": 2,
+          "n_mapping_rows": 2,
+          "status": "ok",
+          "alignment_quality": "fragile_two_centroids",
+          "centroid_rmsd": 0.145301,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "A2G",
+                "chain": "E",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AGA",
+                "chain": "X",
+                "resnum": 56,
+                "icode": ""
+              },
+              "reference_class": "GalNAc",
+              "source_class": "GalNAc"
+            },
+            {
+              "reference": {
+                "resname": "GAL",
+                "chain": "E",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGA",
+                "chain": "X",
+                "resnum": 57,
+                "icode": ""
+              },
+              "reference_class": "Gal",
+              "source_class": "Gal"
+            }
+          ]
+        }
+      ],
+      "n_models_input": 30,
+      "n_models_aligned": 30,
+      "mean_centroid_rmsd": 0.082747,
+      "median_centroid_rmsd": 0.08106,
+      "min_centroid_rmsd": 0.00141,
+      "max_centroid_rmsd": 0.157669
+    }
+  },
+  "warnings": []
+}

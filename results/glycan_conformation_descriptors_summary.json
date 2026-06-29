@@ -1,0 +1,53 @@
+{
+  "qc_path": "results/glycan_frame_qc.csv",
+  "results_root": "results",
+  "output_torsions": "results/glycan_conformation_torsions.csv",
+  "output_rings": "results/glycan_conformation_rings.csv",
+  "max_models": "all",
+  "n_path_sets": 67,
+  "n_models_processed": 1343,
+  "n_torsion_rows": 19657,
+  "n_ring_rows": 10013,
+  "by_tool_models": {
+    "reference": 23,
+    "glycoshield": 690,
+    "glycoshape": 630
+  },
+  "by_coordinate_status": {
+    "ok": 1343
+  },
+  "by_torsion_status_models": {
+    "ok": 1343
+  },
+  "by_ring_status_models": {
+    "ok": 1343
+  },
+  "by_torsion_status_rows": {
+    "ok": 19657
+  },
+  "by_ring_status_rows": {
+    "ok": 10013
+  },
+  "warnings_examples": [
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)",
+    "IUPAC+pdb_path mode returned an empty result | distance fallback built 8 glycosidic linkage(s)"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pdb_id": "5L2J",
+  "site": {
+    "resname": "ASN",
+    "chain": "A",
+    "resnum": 57,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "C",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 7,
+  "n_glycan_atoms": 81,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "C",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "C",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "C",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "C",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "C",
+      "resnum": 7,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/5l2j.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/5l2j_protein_only.pdb",
+  "output_glycan_pdb": "results/5L2J/reference/ASN57_A/glycan.pdb"
+}

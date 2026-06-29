@@ -1,0 +1,48 @@
+{
+  "n_rows": 1343,
+  "by_tool": {
+    "reference": 23,
+    "glycoshield": 690,
+    "glycoshape": 630
+  },
+  "by_descriptor_status": {
+    "ok": 1343
+  },
+  "by_recommended_use": {
+    "reference_for_selected_site": 23,
+    "exploratory_common_scaffold": 210,
+    "strict": 1110
+  },
+  "by_glycan_class": {
+    "high_mannose": 489,
+    "paucimannose": 366,
+    "complex": 488
+  },
+  "by_rmsd_status": {
+    "self_reference": 23,
+    "ok": 1320
+  },
+  "rmsd_to_reference": {
+    "glycoshape": {
+      "n": 630,
+      "min": 1.024629,
+      "mean": 1.986319,
+      "median": 1.934471,
+      "max": 3.435194
+    },
+    "glycoshield": {
+      "n": 690,
+      "min": 0.783945,
+      "mean": 2.071197,
+      "median": 1.960274,
+      "max": 3.885707
+    },
+    "reference": {
+      "n": 23,
+      "min": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "max": 0.0
+    }
+  }
+}

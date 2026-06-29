@@ -1,0 +1,87 @@
+{
+  "pdb_id": "3AVE",
+  "site": {
+    "resname": "ASN",
+    "chain": "B",
+    "resnum": 297,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/3AVE_G89637WE_GlycoShape_Job_308a5943/all.pdb",
+  "job_dir": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/3AVE_G89637WE_GlycoShape_Job_308a5943",
+  "n_models": 30,
+  "n_glycan_residues": 8,
+  "n_glycan_atoms_per_model": 192,
+  "anchor_residue_nearest_site": {
+    "resname": "NAG",
+    "chain": "D",
+    "resnum": 2,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.423,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "D",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "FUC",
+      "chain": "D",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "D",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "D",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "D",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "D",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "D",
+      "resnum": 8,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "D",
+      "resnum": 9,
+      "icode": ""
+    }
+  ],
+  "glycan_chains": [
+    "D"
+  ],
+  "ensemble_stats_csv": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/3AVE_G89637WE_GlycoShape_Job_308a5943/ensemble_stats.csv",
+  "job_meta_json": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/3AVE_G89637WE_GlycoShape_Job_308a5943/job_meta.json",
+  "ensemble_stats_rows": [
+    {
+      "Chain": "D",
+      "Glycan": "G89637WE",
+      "Mean Phi": "278.4376027125149",
+      "Std Phi": "12.777452746386777",
+      "Mean Psi": "173.2025360836902",
+      "Std Psi": "20.46361554211863"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/3AVE/glycoshape/ASN297_B/glycan_ensemble.pdb"
+}

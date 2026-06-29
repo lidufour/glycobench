@@ -1,0 +1,24 @@
+PDB,glycan_class,sites,n_sites,reference,GlycoShield,GlycoShape,status
+1BHG,high_mannose,ASN173_A; ASN173_B,2,yes,yes,no,reference + GlycoShield
+1OYH,paucimannose,ASN192_L,1,yes,yes,yes,triple
+2J1G,paucimannose,ASN215_B,1,yes,yes,yes,triple
+2PE4,paucimannose,ASN350_A,1,yes,yes,yes,triple
+2QL1,complex,ASN297_A,1,yes,yes,yes,triple
+2QWB,high_mannose,ASN200_A,1,yes,yes,yes,triple
+3AVE,complex,ASN297_A; ASN297_B,2,yes,yes,yes,triple
+3AYA,o_glycan,THR251_A; THR251_B,2,no,no,no,excluded / no reference
+3DGC,paucimannose,ASN172_R,1,yes,yes,yes,triple
+3WSR,o_glycan,THR52_C; THR52_D,2,yes,yes,no,reference + GlycoShield
+3WV0,o_glycan,THR53_X; THR53_Y,2,yes,yes,no,reference + GlycoShield
+4B7I,high_mannose,ASN297_A,1,yes,yes,yes,triple
+4C54,complex,ASN297_A; ASN297_B,2,yes,yes,yes,triple
+5A58,o_glycan,SER2435_A,1,no,no,no,excluded / no reference
+5IW3,complex,ASN320_A,1,yes,yes,yes,triple
+5L2J,paucimannose,ASN57_A,1,yes,yes,yes,triple
+5XWD,complex,ASN328_A,1,yes,yes,yes,triple
+6CMG,paucimannose,ASN529_A,1,yes,yes,yes,triple
+6F9T,complex,ASN109_A,1,yes,yes,yes,triple
+6FB3,high_mannose,ASN2365_A; ASN2365_B; ASN2365_C; ASN2365_D,4,yes,yes,yes,triple
+6WXU,high_mannose,ASN109_B; ASN109_D,2,yes,yes,no,reference + GlycoShield
+6X3X,high_mannose,ASN111_B,1,yes,yes,yes,triple
+6Z2P,o_glycan,THR8_C,1,yes,yes,yes,triple

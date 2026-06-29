@@ -1,0 +1,7 @@
+glycan_class,tool,metric,n_sites,median,ci95_low,ci95_high
+complex,glycoshape,min_rmsd_to_reference,8,1.7140015000000002,1.547541,2.301994
+complex,glycoshield,min_rmsd_to_reference,8,1.1629015,0.845414,1.826646
+high_mannose,glycoshape,min_rmsd_to_reference,7,1.577537,1.452121,1.933215
+high_mannose,glycoshield,min_rmsd_to_reference,7,1.511133,1.492714,1.816685
+paucimannose,glycoshape,min_rmsd_to_reference,6,1.3049295,1.0380145,1.8165735
+paucimannose,glycoshield,min_rmsd_to_reference,6,1.3623500000000002,1.0735489999999999,1.7763445

@@ -1,0 +1,16 @@
+{
+  "pdb_id": "3WSR",
+  "site": "THR52_C",
+  "reference_protein_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/3wsr_protein_only.pdb",
+  "reference_glycan_input_pdb": "results/3WSR/reference/THR52_C/glycan.pdb",
+  "reference_glycan_output_pdb": "results/3WSR/aligned/THR52_C/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_full_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/3WSR_O-3Sialyl_Core1_THR52-C_THR52-D_webapp_output_7/merged_traj_pdb.pdb",
+      "glycan_input_pdb": "results/3WSR/glycoshield/THR52_C/glycan_ensemble.pdb",
+      "glycan_output_pdb": "results/3WSR/aligned/THR52_C/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "protein_alignment_rmsd": 0.005075,
+      "n_common_ca": 261
+    }
+  }
+}

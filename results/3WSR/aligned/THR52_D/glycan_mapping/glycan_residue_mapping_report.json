@@ -1,0 +1,330 @@
+{
+  "pdb_id": "3WSR",
+  "site": "THR52_D",
+  "status": "partial",
+  "reference_bundle_path": "results/3WSR/reference/THR52_D/reference_bundle.json",
+  "reference_pdb_path": "results/3WSR/aligned/THR52_D/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_name": "glycoshield",
+      "status": "partial",
+      "method": "rooted_topology_heavy_atom_bonds",
+      "bond_cutoff_angstrom": 1.85,
+      "reference_bundle_path": "results/3WSR/reference/THR52_D/reference_bundle.json",
+      "reference_pdb_path": "results/3WSR/aligned/THR52_D/protein_frame/reference_glycan.pdb",
+      "source_bundle_path": "results/3WSR/glycoshield/THR52_D/glycoshield_bundle.json",
+      "source_pdb_path": "results/3WSR/aligned/THR52_D/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "reference_root": {
+        "resname": "A2G",
+        "chain": "F",
+        "resnum": 1,
+        "icode": ""
+      },
+      "reference_root_strategy": "bundle.glycan_root",
+      "source_root": {
+        "resname": "AGA",
+        "chain": "X",
+        "resnum": 56,
+        "icode": ""
+      },
+      "source_root_strategy": "first_bundle_glycan_residue",
+      "n_reference_residues": 3,
+      "n_source_residues": 3,
+      "n_mapped_residues": 2,
+      "reference_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            39.907,
+            7.317,
+            8.797
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "GAL",
+            "chain": "F",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            42.981,
+            5.557,
+            5.072
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "SIA",
+            "chain": "F",
+            "resnum": 3,
+            "icode": ""
+          },
+          "normalized_name": "Sia",
+          "n_atoms": 20,
+          "n_heavy_atoms": 20,
+          "centroid": [
+            42.214,
+            9.272,
+            15.278
+          ]
+        }
+      ],
+      "source_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 56,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            30.876,
+            6.418,
+            12.339
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 21,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            28.792,
+            5.94,
+            7.763
+          ]
+        },
+        {
+          "index": 3,
+          "key": {
+            "resname": "ANE",
+            "chain": "X",
+            "resnum": 58,
+            "icode": ""
+          },
+          "normalized_name": "Sia",
+          "n_atoms": 37,
+          "n_heavy_atoms": 20,
+          "centroid": [
+            32.625,
+            8.249,
+            4.211
+          ]
+        }
+      ],
+      "reference_edges": [
+        {
+          "residue_a": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "GAL",
+            "chain": "F",
+            "resnum": 2,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.448
+        },
+        {
+          "residue_a": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "SIA",
+            "chain": "F",
+            "resnum": 3,
+            "icode": ""
+          },
+          "atom_a": "O6",
+          "atom_b": "C2",
+          "distance": 1.429
+        }
+      ],
+      "source_edges": [
+        {
+          "residue_a": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 56,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.405
+        },
+        {
+          "residue_a": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "ANE",
+            "chain": "X",
+            "resnum": 58,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C2",
+          "distance": 1.389
+        }
+      ],
+      "reference_topology": [
+        {
+          "parent": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "GAL",
+            "chain": "F",
+            "resnum": 2,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.448,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "SIA",
+            "chain": "F",
+            "resnum": 3,
+            "icode": ""
+          },
+          "parent_atom": "O6",
+          "child_atom": "C2",
+          "distance": 1.429,
+          "depth": 1
+        }
+      ],
+      "source_topology": [
+        {
+          "parent": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 56,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.405,
+          "depth": 1
+        },
+        {
+          "parent": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "child": {
+            "resname": "ANE",
+            "chain": "X",
+            "resnum": 58,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C2",
+          "distance": 1.389,
+          "depth": 2
+        }
+      ],
+      "mapping": [
+        {
+          "reference": {
+            "resname": "A2G",
+            "chain": "F",
+            "resnum": 1,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 56,
+            "icode": ""
+          },
+          "reference_class": "GalNAc",
+          "source_class": "GalNAc"
+        },
+        {
+          "reference": {
+            "resname": "GAL",
+            "chain": "F",
+            "resnum": 2,
+            "icode": ""
+          },
+          "source": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 57,
+            "icode": ""
+          },
+          "reference_class": "Gal",
+          "source_class": "Gal"
+        }
+      ],
+      "warnings": [
+        "mapping: subtree mismatch but edge/name match for GAL2_F below A2G1_F; selected BGA57_X",
+        "mapping: extra source child not mapped below BGA57_X: ANE58_X",
+        "mapping: no source child found for SIA3_F below A2G1_F with edge O6 and class Sia"
+      ]
+    }
+  },
+  "warnings": []
+}

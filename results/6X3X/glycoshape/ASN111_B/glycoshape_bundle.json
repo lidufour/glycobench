@@ -1,0 +1,99 @@
+{
+  "pdb_id": "6X3X",
+  "site": {
+    "resname": "ASN",
+    "chain": "B",
+    "resnum": 111,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/6X3X_G48369JO_GlycoShape_Job_6cd631d4/all.pdb",
+  "job_dir": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/6X3X_G48369JO_GlycoShape_Job_6cd631d4",
+  "n_models": 30,
+  "n_glycan_residues": 10,
+  "n_glycan_atoms_per_model": 223,
+  "anchor_residue_nearest_site": {
+    "resname": "NDG",
+    "chain": "M",
+    "resnum": 2,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 1.396,
+  "glycan_residues": [
+    {
+      "resname": "NDG",
+      "chain": "M",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "M",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 8,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 9,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 10,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "M",
+      "resnum": 11,
+      "icode": ""
+    }
+  ],
+  "glycan_chains": [
+    "M"
+  ],
+  "ensemble_stats_csv": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/6X3X_G48369JO_GlycoShape_Job_6cd631d4/ensemble_stats.csv",
+  "job_meta_json": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/6X3X_G48369JO_GlycoShape_Job_6cd631d4/job_meta.json",
+  "ensemble_stats_rows": [
+    {
+      "Chain": "M",
+      "Glycan": "G48369JO",
+      "Mean Phi": "73.09837815129883",
+      "Std Phi": "41.317671577327005",
+      "Mean Psi": "177.16518447448345",
+      "Std Psi": "9.871254770871886"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/6X3X/glycoshape/ASN111_B/glycan_ensemble.pdb"
+}

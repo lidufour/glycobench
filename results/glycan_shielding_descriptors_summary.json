@@ -1,0 +1,23 @@
+{
+  "qc_path": "results/glycan_frame_qc.csv",
+  "results_root": "results",
+  "output_residue_sasa": "results/glycan_shielding_residue_sasa.csv",
+  "output_summary_csv": "results/glycan_shielding_summary.csv",
+  "max_models": "all",
+  "probe_radius_nm": 0.14,
+  "probe_radius_angstrom": 1.4000000000000001,
+  "mask_threshold_a2": 1.0,
+  "n_path_sets": 67,
+  "n_models_processed": 1343,
+  "n_residue_sasa_rows": 2530953,
+  "n_summary_rows": 125635,
+  "by_tool_models": {
+    "reference": 23,
+    "glycoshield": 690,
+    "glycoshape": 630
+  },
+  "by_shielding_status_models": {
+    "ok": 1343
+  },
+  "warnings_examples": []
+}

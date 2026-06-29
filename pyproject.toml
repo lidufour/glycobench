@@ -1,0 +1,35 @@
+[project]
+name = "glycobench"
+version = "0.1.0"
+description = "Benchmark GlycoShield / GlycoShape against experimental glycosylated PDB structures"
+requires-python = ">=3.10"
+dependencies = [
+    "biopython>=1.83",
+    "pyyaml>=6.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "glycontact>=0.3.4",
+]
+
+[project.scripts]
+glycobench-build-glycan-frame-qc = "glycobench.cli.build_glycan_frame_qc:main"
+glycobench-align-glycan-frame = "glycobench.cli.align_glycan_frame:main"
+glycobench-map-glycan-residues = "glycobench.cli.map_glycan_residues:main"
+glycobench-align-protein-frame = "glycobench.cli.align_protein_frame:main"
+glycobench-build-analysis-manifest = "glycobench.cli.build_analysis_manifest:main"
+glycobench-build-ingestion-qc = "glycobench.cli.build_ingestion_qc:main"
+glycobench-read-glycoshape = "glycobench.cli.read_glycoshape:main"
+glycobench-read-reference = "glycobench.cli.read_reference:main"
+glycobench-read-glycoshield = "glycobench.cli.read_glycoshield:main"
+glycobench-build-glycontact-adapter-qc = "glycobench.cli.build_glycontact_adapter_qc:main"
+glycobench-build-glycan-shape-descriptors = "glycobench.cli.build_glycan_shape_descriptors:main"
+glycobench-build-glycan-conformation-descriptors = "glycobench.cli.build_glycan_conformation_descriptors:main"
+glycobench-build-glycan-shielding-descriptors = "glycobench.cli.build_glycan_shielding_descriptors:main"
+glycobench-compare-global-shape = "glycobench.compare.global_shape:main"
+glycobench-compare-local-conformation = "glycobench.compare.local_conformation:main"
+glycobench-compare-shielding = "glycobench.compare.shielding:main"
+glycobench-build-final-figures = "glycobench.figures.final:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

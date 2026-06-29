@@ -1,0 +1,58 @@
+{
+  "pdb_id": "2PE4",
+  "site": {
+    "resname": "ASN",
+    "chain": "A",
+    "resnum": 350,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "B",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 6,
+  "n_glycan_atoms": 72,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "B",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "B",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "B",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "B",
+      "resnum": 6,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/2pe4.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/2pe4_protein_only.pdb",
+  "output_glycan_pdb": "results/2PE4/reference/ASN350_A/glycan.pdb"
+}

@@ -1,0 +1,4 @@
+glycan_class,metric,comparison,n_paired_sites,median_difference,ci95_low,ci95_high
+complex,reference_span_typicality_in_tool,glycoshape_minus_glycoshield,8,-0.7333333333333333,-0.9333333333333331,-0.19999999999999996
+high_mannose,reference_span_typicality_in_tool,glycoshape_minus_glycoshield,7,-0.2666666666666666,-0.5333333333333334,0.0
+paucimannose,reference_span_typicality_in_tool,glycoshape_minus_glycoshield,6,-0.10000000000000017,-0.5666666666666667,0.33333333333333337

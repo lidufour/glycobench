@@ -1,0 +1,434 @@
+{
+  "pdb_id": "6Z2P",
+  "site": "THR8_C",
+  "status": "ok",
+  "reference_bundle_path": "results/6Z2P/reference/THR8_C/reference_bundle.json",
+  "reference_pdb_path": "results/6Z2P/aligned/THR8_C/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_name": "glycoshield",
+      "status": "ok",
+      "method": "rooted_topology_heavy_atom_bonds",
+      "bond_cutoff_angstrom": 1.85,
+      "reference_bundle_path": "results/6Z2P/reference/THR8_C/reference_bundle.json",
+      "reference_pdb_path": "results/6Z2P/aligned/THR8_C/protein_frame/reference_glycan.pdb",
+      "source_bundle_path": "results/6Z2P/glycoshield/THR8_C/glycoshield_bundle.json",
+      "source_pdb_path": "results/6Z2P/aligned/THR8_C/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "reference_root": {
+        "resname": "A2G",
+        "chain": "B",
+        "resnum": 1,
+        "icode": ""
+      },
+      "reference_root_strategy": "bundle.glycan_root",
+      "source_root": {
+        "resname": "AGA",
+        "chain": "X",
+        "resnum": 11,
+        "icode": ""
+      },
+      "source_root_strategy": "first_bundle_glycan_residue",
+      "n_reference_residues": 2,
+      "n_source_residues": 2,
+      "n_mapped_residues": 2,
+      "reference_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            31.716,
+            115.44,
+            5.271
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            31.131,
+            115.726,
+            -0.046
+          ]
+        }
+      ],
+      "source_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 11,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            37.68,
+            113.672,
+            4.405
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 12,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            42.428,
+            115.08,
+            3.725
+          ]
+        }
+      ],
+      "reference_edges": [
+        {
+          "residue_a": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.406
+        }
+      ],
+      "source_edges": [
+        {
+          "residue_a": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 11,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 12,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.421
+        }
+      ],
+      "reference_topology": [
+        {
+          "parent": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.406,
+          "depth": 1
+        }
+      ],
+      "source_topology": [
+        {
+          "parent": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 11,
+            "icode": ""
+          },
+          "child": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 12,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.421,
+          "depth": 1
+        }
+      ],
+      "mapping": [
+        {
+          "reference": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "source": {
+            "resname": "AGA",
+            "chain": "X",
+            "resnum": 11,
+            "icode": ""
+          },
+          "reference_class": "GalNAc",
+          "source_class": "GalNAc"
+        },
+        {
+          "reference": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "source": {
+            "resname": "BGA",
+            "chain": "X",
+            "resnum": 12,
+            "icode": ""
+          },
+          "reference_class": "Gal",
+          "source_class": "Gal"
+        }
+      ],
+      "warnings": []
+    },
+    "glycoshape": {
+      "source_name": "glycoshape",
+      "status": "ok",
+      "method": "rooted_topology_heavy_atom_bonds",
+      "bond_cutoff_angstrom": 1.85,
+      "reference_bundle_path": "results/6Z2P/reference/THR8_C/reference_bundle.json",
+      "reference_pdb_path": "results/6Z2P/aligned/THR8_C/protein_frame/reference_glycan.pdb",
+      "source_bundle_path": "results/6Z2P/glycoshape/THR8_C/glycoshape_bundle.json",
+      "source_pdb_path": "results/6Z2P/aligned/THR8_C/protein_frame/glycoshape_glycan_ensemble.pdb",
+      "reference_root": {
+        "resname": "A2G",
+        "chain": "B",
+        "resnum": 1,
+        "icode": ""
+      },
+      "reference_root_strategy": "bundle.glycan_root",
+      "source_root": {
+        "resname": "A2G",
+        "chain": "D",
+        "resnum": 2,
+        "icode": ""
+      },
+      "source_root_strategy": "first_bundle_glycan_residue",
+      "n_reference_residues": 2,
+      "n_source_residues": 2,
+      "n_mapped_residues": 2,
+      "reference_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 14,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            31.716,
+            115.44,
+            5.271
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 11,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            31.131,
+            115.726,
+            -0.046
+          ]
+        }
+      ],
+      "source_residues": [
+        {
+          "index": 1,
+          "key": {
+            "resname": "A2G",
+            "chain": "D",
+            "resnum": 2,
+            "icode": ""
+          },
+          "normalized_name": "GalNAc",
+          "n_atoms": 27,
+          "n_heavy_atoms": 14,
+          "centroid": [
+            31.494,
+            115.188,
+            5.547
+          ]
+        },
+        {
+          "index": 2,
+          "key": {
+            "resname": "GAL",
+            "chain": "D",
+            "resnum": 3,
+            "icode": ""
+          },
+          "normalized_name": "Gal",
+          "n_atoms": 22,
+          "n_heavy_atoms": 11,
+          "centroid": [
+            31.152,
+            115.159,
+            0.053
+          ]
+        }
+      ],
+      "reference_edges": [
+        {
+          "residue_a": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.406
+        }
+      ],
+      "source_edges": [
+        {
+          "residue_a": {
+            "resname": "A2G",
+            "chain": "D",
+            "resnum": 2,
+            "icode": ""
+          },
+          "residue_b": {
+            "resname": "GAL",
+            "chain": "D",
+            "resnum": 3,
+            "icode": ""
+          },
+          "atom_a": "O3",
+          "atom_b": "C1",
+          "distance": 1.479
+        }
+      ],
+      "reference_topology": [
+        {
+          "parent": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "child": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.406,
+          "depth": 1
+        }
+      ],
+      "source_topology": [
+        {
+          "parent": {
+            "resname": "A2G",
+            "chain": "D",
+            "resnum": 2,
+            "icode": ""
+          },
+          "child": {
+            "resname": "GAL",
+            "chain": "D",
+            "resnum": 3,
+            "icode": ""
+          },
+          "parent_atom": "O3",
+          "child_atom": "C1",
+          "distance": 1.479,
+          "depth": 1
+        }
+      ],
+      "mapping": [
+        {
+          "reference": {
+            "resname": "A2G",
+            "chain": "B",
+            "resnum": 1,
+            "icode": ""
+          },
+          "source": {
+            "resname": "A2G",
+            "chain": "D",
+            "resnum": 2,
+            "icode": ""
+          },
+          "reference_class": "GalNAc",
+          "source_class": "GalNAc"
+        },
+        {
+          "reference": {
+            "resname": "GAL",
+            "chain": "B",
+            "resnum": 2,
+            "icode": ""
+          },
+          "source": {
+            "resname": "GAL",
+            "chain": "D",
+            "resnum": 3,
+            "icode": ""
+          },
+          "reference_class": "Gal",
+          "source_class": "Gal"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "warnings": []
+}

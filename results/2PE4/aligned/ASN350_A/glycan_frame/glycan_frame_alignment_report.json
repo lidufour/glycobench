@@ -1,0 +1,6419 @@
+{
+  "pdb_id": "2PE4",
+  "site": "ASN350_A",
+  "status": "ok",
+  "method": "monosaccharide_centroid_kabsch",
+  "mapping_report_path": "results/2PE4/aligned/ASN350_A/glycan_mapping/glycan_residue_mapping_report.json",
+  "reference_input_pdb": "results/2PE4/aligned/ASN350_A/protein_frame/reference_glycan.pdb",
+  "reference_output_pdb": "results/2PE4/aligned/ASN350_A/glycan_frame/reference_glycan.pdb",
+  "min_centroids_required": 2,
+  "tools": {
+    "glycoshield": {
+      "tool": "glycoshield",
+      "status": "ok",
+      "method": "monosaccharide_centroid_kabsch",
+      "mapping_status": "ok",
+      "reference_pdb_path": "results/2PE4/aligned/ASN350_A/protein_frame/reference_glycan.pdb",
+      "source_pdb_path": "results/2PE4/aligned/ASN350_A/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "output_pdb_path": "results/2PE4/aligned/ASN350_A/glycan_frame/glycoshield_glycan_ensemble.pdb",
+      "n_reference_residues": 6,
+      "n_source_residues": 6,
+      "n_mapped_residues": 6,
+      "min_centroids_required": 2,
+      "mapping_warnings": [],
+      "warnings": [],
+      "models": [
+        {
+          "model": 1,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.696515,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 2,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.013913,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 3,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.705146,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 4,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.999773,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 5,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.733887,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 6,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.919278,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 7,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.723223,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 8,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.908481,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 9,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.883537,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 10,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.719814,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 11,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.120128,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 12,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.906555,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 13,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.974267,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 14,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.816778,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 15,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.456652,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 16,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.046982,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 17,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.985864,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 18,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.014161,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 19,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.252988,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 20,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.00359,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 21,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.130967,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 22,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.824664,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 23,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.532585,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 24,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.799123,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 25,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.686266,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 26,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.057777,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 27,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.293601,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 28,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.455867,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 29,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.043975,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 30,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.143976,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 437,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BGL",
+                "chain": "X",
+                "resnum": 438,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "BMA",
+                "chain": "X",
+                "resnum": 439,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 441,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 442,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "AMA",
+                "chain": "X",
+                "resnum": 440,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        }
+      ],
+      "n_models_input": 30,
+      "n_models_aligned": 30,
+      "mean_centroid_rmsd": 3.795011,
+      "median_centroid_rmsd": 3.8541,
+      "min_centroid_rmsd": 3.013913,
+      "max_centroid_rmsd": 4.293601
+    },
+    "glycoshape": {
+      "tool": "glycoshape",
+      "status": "ok",
+      "method": "monosaccharide_centroid_kabsch",
+      "mapping_status": "ok",
+      "reference_pdb_path": "results/2PE4/aligned/ASN350_A/protein_frame/reference_glycan.pdb",
+      "source_pdb_path": "results/2PE4/aligned/ASN350_A/protein_frame/glycoshape_glycan_ensemble.pdb",
+      "output_pdb_path": "results/2PE4/aligned/ASN350_A/glycan_frame/glycoshape_glycan_ensemble.pdb",
+      "n_reference_residues": 6,
+      "n_source_residues": 6,
+      "n_mapped_residues": 6,
+      "min_centroids_required": 2,
+      "mapping_warnings": [],
+      "warnings": [],
+      "models": [
+        {
+          "model": 1,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863906,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 2,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 3,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159398,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 4,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863932,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 5,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 6,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 7,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786246,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 8,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863906,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 9,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.7863,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 10,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.7863,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 11,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.831872,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 12,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786292,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 13,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159334,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 14,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.831901,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 15,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786284,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 16,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159398,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 17,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863932,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 18,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863932,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 19,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786284,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 20,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863932,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 21,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 22,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159398,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 23,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786292,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 24,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 4.786292,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 25,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159398,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 26,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863932,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 27,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.813007,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 28,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 29,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 1.159279,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        },
+        {
+          "model": 30,
+          "n_centroids_used": 6,
+          "n_mapping_rows": 6,
+          "status": "ok",
+          "alignment_quality": "robust_3d",
+          "centroid_rmsd": 3.863893,
+          "used_mapping": [
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 1,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 2,
+                "icode": ""
+              },
+              "source": {
+                "resname": "NAG",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "reference_class": "GlcNAc",
+              "source_class": "GlcNAc"
+            },
+            {
+              "reference": {
+                "resname": "BMA",
+                "chain": "B",
+                "resnum": 3,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 4,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 5,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            },
+            {
+              "reference": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 6,
+                "icode": ""
+              },
+              "source": {
+                "resname": "MAN",
+                "chain": "B",
+                "resnum": 7,
+                "icode": ""
+              },
+              "reference_class": "Man",
+              "source_class": "Man"
+            }
+          ]
+        }
+      ],
+      "n_models_input": 30,
+      "n_models_aligned": 30,
+      "mean_centroid_rmsd": 3.565137,
+      "median_centroid_rmsd": 3.8639,
+      "min_centroid_rmsd": 1.159279,
+      "max_centroid_rmsd": 4.7863
+    }
+  },
+  "warnings": []
+}

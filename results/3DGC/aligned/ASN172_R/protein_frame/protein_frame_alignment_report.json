@@ -1,0 +1,23 @@
+{
+  "pdb_id": "3DGC",
+  "site": "ASN172_R",
+  "reference_protein_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/3dgc_protein_only.pdb",
+  "reference_glycan_input_pdb": "results/3DGC/reference/ASN172_R/glycan.pdb",
+  "reference_glycan_output_pdb": "results/3DGC/aligned/ASN172_R/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_full_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/3DGC_M2F_a6_ASN172-R_webapp_output_12/merged_traj_pdb.pdb",
+      "glycan_input_pdb": "results/3DGC/glycoshield/ASN172_R/glycan_ensemble.pdb",
+      "glycan_output_pdb": "results/3DGC/aligned/ASN172_R/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "protein_alignment_rmsd": 0.00507,
+      "n_common_ca": 691
+    },
+    "glycoshape": {
+      "source_full_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape/3DGC_G47829CW_GlycoShape_Job_d21485bb/all.pdb",
+      "glycan_input_pdb": "results/3DGC/glycoshape/ASN172_R/glycan_ensemble.pdb",
+      "glycan_output_pdb": "results/3DGC/aligned/ASN172_R/protein_frame/glycoshape_glycan_ensemble.pdb",
+      "protein_alignment_rmsd": 0.0,
+      "n_common_ca": 691
+    }
+  }
+}

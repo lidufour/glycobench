@@ -1,0 +1,82 @@
+{
+  "pdb_id": "6X3X",
+  "site": {
+    "resname": "ASN",
+    "chain": "B",
+    "resnum": 111,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "NAG",
+    "chain": "G",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 10,
+  "n_glycan_atoms": 116,
+  "glycan_residues": [
+    {
+      "resname": "NAG",
+      "chain": "G",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "NAG",
+      "chain": "G",
+      "resnum": 2,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "G",
+      "resnum": 3,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 4,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 5,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 6,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 7,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 8,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 9,
+      "icode": ""
+    },
+    {
+      "resname": "MAN",
+      "chain": "G",
+      "resnum": 10,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/6x3x.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/6x3x_protein_only.pdb",
+  "output_glycan_pdb": "results/6X3X/reference/ASN111_B/glycan.pdb"
+}

@@ -1,0 +1,53 @@
+{
+  "pdb_id": "3DGC",
+  "site": {
+    "resname": "ASN",
+    "chain": "R",
+    "resnum": 172,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/3DGC_M2F_a6_ASN172-R_webapp_output_12/merged_traj_pdb.pdb",
+  "n_models": 30,
+  "n_glycan_residues": 5,
+  "n_glycan_atoms_per_model": 117,
+  "anchor_residue_nearest_site": {
+    "resname": "BGL",
+    "chain": "X",
+    "resnum": 225,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 2.165,
+  "glycan_residues": [
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 225,
+      "icode": ""
+    },
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 226,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "X",
+      "resnum": 227,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 228,
+      "icode": ""
+    },
+    {
+      "resname": "AFU",
+      "chain": "X",
+      "resnum": 229,
+      "icode": ""
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/3DGC/glycoshield/ASN172_R/glycan_ensemble.pdb"
+}

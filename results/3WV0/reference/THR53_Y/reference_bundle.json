@@ -1,0 +1,34 @@
+{
+  "pdb_id": "3WV0",
+  "site": {
+    "resname": "THR",
+    "chain": "Y",
+    "resnum": 53,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "A2G",
+    "chain": "D",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 2,
+  "n_glycan_atoms": 34,
+  "glycan_residues": [
+    {
+      "resname": "A2G",
+      "chain": "D",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "SIA",
+      "chain": "D",
+      "resnum": 2,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/3wv0.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/3wv0_protein_only.pdb",
+  "output_glycan_pdb": "results/3WV0/reference/THR53_Y/glycan.pdb"
+}

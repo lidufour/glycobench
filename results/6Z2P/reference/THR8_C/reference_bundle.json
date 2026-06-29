@@ -1,0 +1,34 @@
+{
+  "pdb_id": "6Z2P",
+  "site": {
+    "resname": "THR",
+    "chain": "C",
+    "resnum": 8,
+    "icode": ""
+  },
+  "glycan_root": {
+    "resname": "A2G",
+    "chain": "B",
+    "resnum": 1,
+    "icode": ""
+  },
+  "n_glycan_residues": 2,
+  "n_glycan_atoms": 25,
+  "glycan_residues": [
+    {
+      "resname": "A2G",
+      "chain": "B",
+      "resnum": 1,
+      "icode": ""
+    },
+    {
+      "resname": "GAL",
+      "chain": "B",
+      "resnum": 2,
+      "icode": ""
+    }
+  ],
+  "reference_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/6z2p.pdb",
+  "reference_apo_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/6z2p_protein_only.pdb",
+  "output_glycan_pdb": "results/6Z2P/reference/THR8_C/glycan.pdb"
+}

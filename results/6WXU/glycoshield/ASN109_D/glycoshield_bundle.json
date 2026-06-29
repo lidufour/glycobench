@@ -1,0 +1,71 @@
+{
+  "pdb_id": "6WXU",
+  "site": {
+    "resname": "ASN",
+    "chain": "D",
+    "resnum": 109,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/6WXU_Man9_ASN109-B_ASN109-D_webapp_output_20/merged_traj_pdb.pdb",
+  "n_models": 1,
+  "n_glycan_residues": 8,
+  "n_glycan_atoms_per_model": 181,
+  "anchor_residue_nearest_site": {
+    "resname": "BGL",
+    "chain": "X",
+    "resnum": 276,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 2.078,
+  "glycan_residues": [
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 276,
+      "icode": ""
+    },
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 277,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "X",
+      "resnum": 278,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 279,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 280,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 281,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 282,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 283,
+      "icode": ""
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/6WXU/glycoshield/ASN109_D/glycan_ensemble.pdb"
+}

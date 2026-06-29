@@ -1,0 +1,53 @@
+{
+  "pdb_id": "1OYH",
+  "site": {
+    "resname": "ASN",
+    "chain": "L",
+    "resnum": 192,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/1OYH_M3_ASN192-L_webapp_output_5/merged_traj_pdb.pdb",
+  "n_models": 30,
+  "n_glycan_residues": 5,
+  "n_glycan_atoms_per_model": 118,
+  "anchor_residue_nearest_site": {
+    "resname": "BGL",
+    "chain": "X",
+    "resnum": 431,
+    "icode": ""
+  },
+  "anchor_distance_angstrom": 3.544,
+  "glycan_residues": [
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 431,
+      "icode": ""
+    },
+    {
+      "resname": "BGL",
+      "chain": "X",
+      "resnum": 432,
+      "icode": ""
+    },
+    {
+      "resname": "BMA",
+      "chain": "X",
+      "resnum": 433,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 434,
+      "icode": ""
+    },
+    {
+      "resname": "AMA",
+      "chain": "X",
+      "resnum": 435,
+      "icode": ""
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/1OYH/glycoshield/ASN192_L/glycan_ensemble.pdb"
+}

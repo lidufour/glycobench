@@ -1,0 +1,13 @@
+glycan_class,tool,section,n_rows,median_of_median_circular_distance_phi,median_of_median_circular_distance_psi,median_of_median_circular_distance_omega,median_pucker_agreement_fraction,mean_pucker_agreement_fraction
+complex,glycoshape,torsions,22,10.844999999999985,19.375000000000014,25.945,,
+complex,glycoshield,torsions,47,11.905000000000001,21.580000000000013,7.247500000000002,,
+high_mannose,glycoshape,torsions,21,9.189999999999998,31.845000000000013,4.860000000000014,,
+high_mannose,glycoshield,torsions,56,10.094999999999999,23.055,41.56,,
+paucimannose,glycoshape,torsions,7,16.405,22.360000000000014,105.84499999999998,,
+paucimannose,glycoshield,torsions,27,11.655000000000015,22.35000000000001,47.629999999999995,,
+complex,glycoshape,puckering,24,,,,1.0,1.0
+complex,glycoshield,puckering,58,,,,1.0,1.0
+high_mannose,glycoshape,puckering,47,,,,1.0,1.0
+high_mannose,glycoshield,puckering,75,,,,1.0,0.9546666666666668
+paucimannose,glycoshape,puckering,18,,,,1.0,0.8333333333333334
+paucimannose,glycoshield,puckering,26,,,,1.0,0.8205128205128206

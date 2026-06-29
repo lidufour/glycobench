@@ -1,0 +1,19 @@
+{
+  "n_rows": 50,
+  "by_scope": {
+    "glycoshield_secondary": 6,
+    "triple_core": 44
+  },
+  "by_tool_status": {
+    "glycoshield:partial": 9,
+    "glycoshield:ok": 16,
+    "glycoshape:ok": 21,
+    "glycoshield:fragile": 3,
+    "glycoshape:fragile": 1
+  },
+  "by_recommended_use": {
+    "exploratory_common_scaffold": 7,
+    "strict": 37,
+    "exploratory_fragile_exclude_strict": 6
+  }
+}

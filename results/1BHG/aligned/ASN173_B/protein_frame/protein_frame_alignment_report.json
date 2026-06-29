@@ -1,0 +1,16 @@
+{
+  "pdb_id": "1BHG",
+  "site": "ASN173_B",
+  "reference_protein_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23/deglycosylated/1bhg_protein_only.pdb",
+  "reference_glycan_input_pdb": "results/1BHG/reference/ASN173_B/glycan.pdb",
+  "reference_glycan_output_pdb": "results/1BHG/aligned/ASN173_B/protein_frame/reference_glycan.pdb",
+  "tools": {
+    "glycoshield": {
+      "source_full_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/merged_traj_pdb.pdb(4).zip!webapp_output/merged_traj_pdb.pdb",
+      "glycan_input_pdb": "results/1BHG/glycoshield/ASN173_B/glycan_ensemble.pdb",
+      "glycan_output_pdb": "results/1BHG/aligned/ASN173_B/protein_frame/glycoshield_glycan_ensemble.pdb",
+      "protein_alignment_rmsd": 0.005016,
+      "n_common_ca": 1222
+    }
+  }
+}

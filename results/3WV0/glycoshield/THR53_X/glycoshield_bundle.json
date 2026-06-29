@@ -1,0 +1,35 @@
+{
+  "pdb_id": "3WV0",
+  "site": {
+    "resname": "THR",
+    "chain": "X",
+    "resnum": 53,
+    "icode": ""
+  },
+  "source_pdb": "/home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield/3WV0_Sialyl-Tn_Antigen_THR53-X_THR53-Y_webapp_output_13/merged_traj_pdb.pdb",
+  "n_models": 30,
+  "n_glycan_residues": 2,
+  "n_glycan_atoms_per_model": 64,
+  "anchor_residue_nearest_site": {
+    "resname": "AGA",
+    "chain": "X",
+    "resnum": 57,
+    "icode": "occ1"
+  },
+  "anchor_distance_angstrom": 1.343,
+  "glycan_residues": [
+    {
+      "resname": "AGA",
+      "chain": "X",
+      "resnum": 57,
+      "icode": "occ1"
+    },
+    {
+      "resname": "ANE",
+      "chain": "X",
+      "resnum": 58,
+      "icode": "occ1"
+    }
+  ],
+  "output_glycan_ensemble_pdb": "results/3WV0/glycoshield/THR53_X/glycan_ensemble.pdb"
+}

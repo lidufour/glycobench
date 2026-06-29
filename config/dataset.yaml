@@ -1,0 +1,360 @@
+# Manifeste du benchmark GlycoShield / GlycoShape — couche 0
+# Source de vérité unique. Généré depuis l'ODS + arborescences réelles.
+
+roots:
+  glycoshield: /home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshield/output_glycoshield
+  glycoshape:  /home/etudiant/Documents/M2BI/projet_long_2.0/Glycoshape_reglyco/output_glycoshape
+  reference:   /home/etudiant/Documents/M2BI/projet_long_2.0/structures/final_set_23
+
+defaults:
+  sasa_probe_angstrom: 1.4
+  glycoshield_canonical: merged_traj_pdb.pdb   # ensemble 30 modèles, commun à toutes les sorties
+  reference_apo_subdir: deglycosylated         # protéines apo expérimentales (pour la SASA apo)
+
+entries:
+  - pdb_id: 1BHG
+    glycan_class: high_mannose
+    status: shield_only
+    glycan_name: Man7
+    glytoucan: null
+    sites:
+      - {resname: ASN, resnum: 173, chain: A}
+      - {resname: ASN, resnum: 173, chain: B}
+    reference: {glyco: 1bhg.pdb, apo: deglycosylated/1bhg_protein_only.pdb}
+    glycoshape: {available: false, reason: non_apparie}
+    glycoshield:
+      available: true
+      form: merged_only
+      zip: merged_traj_pdb.pdb(4).zip
+      canonical_pdb: webapp_output/merged_traj_pdb.pdb
+
+  - pdb_id: 1OYH
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M3
+    glytoucan: G00026MO
+    sites:
+      - {resname: ASN, resnum: 192, chain: L}
+    reference: {glyco: 1oyh.pdb, apo: deglycosylated/1oyh_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 1OYH_G00026MO_GlycoShape_Job_bd763090}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 1OYH_M3_ASN192-L_webapp_output_5
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 2J1G
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M2F_a6
+    glytoucan: G47829CW
+    sites:
+      - {resname: ASN, resnum: 215, chain: B}
+    reference: {glyco: 2j1g.pdb, apo: deglycosylated/2j1g_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 2J1G_G47829CW_GlycoShape_Job_20998f27}
+    glycoshield:
+      available: true
+      form: merged_only
+      zip: merged_traj_pdb.pdb(3).zip
+      canonical_pdb: webapp_output/merged_traj_pdb.pdb
+
+  - pdb_id: 2PE4
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M4_a3
+    glytoucan: G41510DX
+    sites:
+      - {resname: ASN, resnum: 350, chain: A}
+    reference: {glyco: 2pe4.pdb, apo: deglycosylated/2pe4_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 2PE4_G41510DX_GlycoShape_Job_a25679ea}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 2PE4_M4_a3_ASN350-A_webapp_output_8
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 2QL1
+    glycan_class: complex
+    status: triple
+    glycan_name: FA2G1
+    glytoucan: G70059SD
+    sites:
+      - {resname: ASN, resnum: 297, chain: A}
+    reference: {glyco: 2ql1.pdb, apo: deglycosylated/2ql1_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 2QL1_G70059SD_GlycoShape_Job_ce0867bf}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 2QL1_FA2G1_ASN297-A_webapp_output_9
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 2QWB
+    glycan_class: high_mannose
+    status: triple
+    glycan_name: Man5
+    glytoucan: G53401FX
+    sites:
+      - {resname: ASN, resnum: 200, chain: A}
+    reference: {glyco: 2qwb.pdb, apo: deglycosylated/2qwb_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 2QWB_G53401FX_GlycoShape_Job_5628a3ae}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 2QWB_Man5_ASN200-A_webapp_output_10
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 3AVE
+    glycan_class: complex
+    status: triple
+    glycan_name: NGA2F
+    glytoucan: G89637WE
+    sites:
+      - {resname: ASN, resnum: 297, chain: A}
+      - {resname: ASN, resnum: 297, chain: B}
+    reference: {glyco: 3ave.pdb, apo: deglycosylated/3ave_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 3AVE_G89637WE_GlycoShape_Job_308a5943}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 3AVE_NGA2F_ASN297-A_ASN297-B_webapp_output_11
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 3AYA
+    glycan_class: o_glycan
+    status: exclu
+    glycan_name: O-Core1
+    glytoucan: null
+    sites:
+      - {resname: THR, resnum: 251, chain: A}
+      - {resname: THR, resnum: 251, chain: B}
+    reference: {glyco: 3aya.pdb, apo: deglycosylated/3aya_protein_only.pdb}
+    glycoshape: {available: false, reason: echec_extraction_residu}
+    glycoshield: {available: false, reason: echec_extraction_residu}
+
+  - pdb_id: 3DGC
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M2F_a6
+    glytoucan: G47829CW
+    sites:
+      - {resname: ASN, resnum: 172, chain: R}
+    reference: {glyco: 3dgc.pdb, apo: deglycosylated/3dgc_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 3DGC_G47829CW_GlycoShape_Job_d21485bb}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 3DGC_M2F_a6_ASN172-R_webapp_output_12
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 3WSR
+    glycan_class: o_glycan
+    status: shield_only
+    glycan_name: O-3Sialyl_Core1
+    glytoucan: null
+    sites:
+      - {resname: THR, resnum: 52, chain: C}
+      - {resname: THR, resnum: 52, chain: D}
+    reference: {glyco: 3wsr.pdb, apo: deglycosylated/3wsr_protein_only.pdb}
+    glycoshape: {available: false, reason: non_apparie}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 3WSR_O-3Sialyl_Core1_THR52-C_THR52-D_webapp_output_7
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 3WV0
+    glycan_class: o_glycan
+    status: shield_only
+    glycan_name: Sialyl-Tn_Antigen
+    glytoucan: null
+    sites:
+      - {resname: THR, resnum: 53, chain: X}
+      - {resname: THR, resnum: 53, chain: Y}
+    reference: {glyco: 3wv0.pdb, apo: deglycosylated/3wv0_protein_only.pdb}
+    glycoshape: {available: false, reason: non_apparie}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 3WV0_Sialyl-Tn_Antigen_THR53-X_THR53-Y_webapp_output_13
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 4B7I
+    glycan_class: high_mannose
+    status: triple
+    glycan_name: Man5_Fuc1
+    glytoucan: G26629TM
+    sites:
+      - {resname: ASN, resnum: 297, chain: A}
+    reference: {glyco: 4b7i.pdb, apo: deglycosylated/4b7i_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 4B7I_G26629TM_GlycoShape_Job_919c4180}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 4B7I_Man5_Fuc1_ASN297-A_webapp_output_14
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 4C54
+    glycan_class: complex
+    status: triple
+    glycan_name: NGA2F
+    glytoucan: G89637WE
+    sites:
+      - {resname: ASN, resnum: 297, chain: A}
+      - {resname: ASN, resnum: 297, chain: B}
+    reference: {glyco: 4c54.pdb, apo: deglycosylated/4c54_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 4C54_G89637WE_GlycoShape_Job_d8656305}
+    glycoshield:
+      available: true
+      form: merged_only
+      zip: merged_traj_pdb.pdb(7).zip
+      canonical_pdb: webapp_output/merged_traj_pdb.pdb
+
+  - pdb_id: 5A58
+    glycan_class: o_glycan
+    status: exclu
+    glycan_name: O-Core1
+    glytoucan: null
+    sites:
+      - {resname: SER, resnum: 2435, chain: A}
+    reference: {glyco: 5a58.pdb, apo: deglycosylated/5a58_protein_only.pdb}
+    glycoshape: {available: false, reason: echec_extraction_residu}
+    glycoshield: {available: false, reason: echec_extraction_residu}
+
+  - pdb_id: 5IW3
+    glycan_class: complex
+    status: triple
+    glycan_name: A2G1
+    glytoucan: G86102WJ
+    sites:
+      - {resname: ASN, resnum: 320, chain: A}
+    reference: {glyco: 5iw3.pdb, apo: deglycosylated/5iw3_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 5IW3_G86102WJ_GlycoShape_Job_2e9dc836}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 5IW3_A2G1_ASN320-A_webapp_output_16
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 5L2J
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M3F2
+    glytoucan: G63699VG
+    sites:
+      - {resname: ASN, resnum: 57, chain: A}
+    reference: {glyco: 5l2j.pdb, apo: deglycosylated/5l2j_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 5L2J_G63699VG_GlycoShape_Job_9e678527}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 5L2J_M3F2_ASN57-A_webapp_output_17
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 5XWD
+    glycan_class: complex
+    status: triple
+    glycan_name: NGA2
+    glytoucan: G84678BK
+    sites:
+      - {resname: ASN, resnum: 328, chain: A}
+    reference: {glyco: 5xwd.pdb, apo: deglycosylated/5xwd_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 5XWD_G84678BK_GlycoShape_Job_76ccdd8e}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 5XWD_NGA2_ASN328-A_webapp_output_18
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 6CMG
+    glycan_class: paucimannose
+    status: triple
+    glycan_name: M2F2
+    glytoucan: G01111PL
+    sites:
+      - {resname: ASN, resnum: 529, chain: A}
+    reference: {glyco: 6cmg.pdb, apo: deglycosylated/6cmg_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 6CMG_G01111PL_GlycoShape_Job_6d371a60}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 6CMG_M2F2_ASN529-A_webapp_output_19
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 6F9T
+    glycan_class: complex
+    status: triple
+    glycan_name: NGA2F
+    glytoucan: G89637WE
+    sites:
+      - {resname: ASN, resnum: 109, chain: A}
+    reference: {glyco: 6f9t.pdb, apo: deglycosylated/6f9t_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 6F9T_G89637WE_GlycoShape_Job_ca79a579}
+    glycoshield:
+      available: true
+      form: merged_only
+      zip: merged_traj_pdb.pdb(5).zip
+      canonical_pdb: webapp_output/merged_traj_pdb.pdb
+
+  - pdb_id: 6FB3
+    glycan_class: high_mannose
+    status: triple
+    glycan_name: Man6
+    glytoucan: G13113SB
+    sites:
+      - {resname: ASN, resnum: 2365, chain: A}
+      - {resname: ASN, resnum: 2365, chain: B}
+      - {resname: ASN, resnum: 2365, chain: C}
+      - {resname: ASN, resnum: 2365, chain: D}
+    reference: {glyco: 6fb3.pdb, apo: deglycosylated/6fb3_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 6FB3_G13113SB_GlycoShape_Job_e3767dce}
+    glycoshield:
+      available: true
+      form: merged_only
+      zip: merged_traj_pdb.pdb(6).zip
+      canonical_pdb: webapp_output/merged_traj_pdb.pdb
+
+  - pdb_id: 6WXU
+    glycan_class: high_mannose
+    status: shield_only
+    glycan_name: Man9
+    glytoucan: null
+    sites:
+      - {resname: ASN, resnum: 109, chain: B}
+      - {resname: ASN, resnum: 109, chain: D}
+    reference: {glyco: 6wxu.pdb, apo: deglycosylated/6wxu_protein_only.pdb}
+    glycoshape: {available: false, reason: non_apparie}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 6WXU_Man9_ASN109-B_ASN109-D_webapp_output_20
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 6X3X
+    glycan_class: high_mannose
+    status: triple
+    glycan_name: Man8
+    glytoucan: G48369JO
+    sites:
+      - {resname: ASN, resnum: 111, chain: B}
+    reference: {glyco: 6x3x.pdb, apo: deglycosylated/6x3x_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 6X3X_G48369JO_GlycoShape_Job_6cd631d4}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 6X3X_Man8_ASN111-B_webapp_output_21
+      canonical_pdb: merged_traj_pdb.pdb
+
+  - pdb_id: 6Z2P
+    glycan_class: o_glycan
+    status: triple
+    glycan_name: O-Core1
+    glytoucan: G00032MO
+    sites:
+      - {resname: THR, resnum: 8, chain: C}
+    reference: {glyco: 6z2p.pdb, apo: deglycosylated/6z2p_protein_only.pdb}
+    glycoshape: {available: true, job_dir: 6Z2P_G00032MO_GlycoShape_Job_08fff715}
+    glycoshield:
+      available: true
+      form: complete
+      dir: 6Z2P_O-Core1_THR8-C_webapp_output_6
+      canonical_pdb: merged_traj_pdb.pdb

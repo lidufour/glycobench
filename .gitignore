@@ -2,3 +2,6 @@
 # Large generated result files
 results/frozen/
 *.full_validated.csv
+
+# Large generated shielding outputs
+results/glycan_shielding_residue_sasa.csv

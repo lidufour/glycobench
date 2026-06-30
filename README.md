@@ -135,13 +135,6 @@ uv run glycobench-build-final-figures
 
 ## 6. Figures and tables
 
-> **Major change vs `ARCHITECTURE.md`.** The original spec called for
-> Ramachandran-style overlays, pucker distributions, RMSD bar charts, on-protein
-> shielding heatmaps, and PyMOL sessions. The figure layer has been reworked
-> into a single module [`figures/final.py`](src/glycobench/figures/final.py) that
-> starts directly from the layer-4 comparison CSVs and produces a set of
-> **per-class** figures, paired and annotated with confidence intervals.
-
 Principles of the new generation:
 
 - **Paired triple-site subset.** All figures are restricted to a strictly paired
@@ -215,7 +208,6 @@ are complemented by the global summary tables (`table_global_shape_summary`,
 ```text
 glycobench/
 ├── pyproject.toml              # uv ; dependencies + console entry-points
-├── ARCHITECTURE.md             # frozen design spec
 ├── README.md                   # this document
 ├── config/
 │   └── dataset.yaml            # layer 0 — manifest

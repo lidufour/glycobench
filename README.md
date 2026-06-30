@@ -9,11 +9,6 @@ protein-surface shielding.
 Scientific computation relies on **GlyContact** (≥ 0.3.4) as much as possible;
 in-house code is limited to ingesting the heterogeneous input formats,
 residue/atom mapping, alignment, cross-tool comparison, and figure generation.
-
-> The detailed design is frozen in [`ARCHITECTURE.md`](ARCHITECTURE.md). This
-> README describes the pipeline as it runs today. The figure layer has evolved
-> since the original spec (see [§ Figures and tables](#6-figures-and-tables)).
-
 ---
 
 ## 1. Principle

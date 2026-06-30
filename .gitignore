@@ -1,0 +1,4 @@
+
+# Large generated result files
+results/frozen/
+*.full_validated.csv

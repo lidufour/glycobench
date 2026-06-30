@@ -5,3 +5,8 @@ results/frozen/
 
 # Large generated shielding outputs
 results/glycan_shielding_residue_sasa.csv
+
+# Local/editor temporary files
+.Rhistory
+*.ods
+.~lock*
